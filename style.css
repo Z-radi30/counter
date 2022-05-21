@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 450px;
+    width: 500px;
+    margin: 120px auto auto;
+    text-align: center;
+    background-color: rgb(104, 20, 20);
+    border: 6px solid black;
+    border-radius: 15px;
+    background-size: cover;
+}
+
+
+.btns{
+    text-align: center;
+    height: 170px;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 20px;
+    background-image: url(math.png);
+    background-size: contain;
+}
+h1{
+    margin-bottom: 20px;
+    font-family: Papyrus;
+    
+}
+
+#decrease, #increase, #reset{
+    width: 100px;
+    height: 34px;
+    border-radius: 10%;
+    justify-content: space-between;
+    font-family: Papyrus;
+
+
+}
+
+#CounteLabel{
+    display: block;
+    font-size: 50px;
+    font-family: Papyrus;
+}
