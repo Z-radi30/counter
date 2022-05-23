@@ -15,14 +15,13 @@
 
 
 .btns{
-    text-align: center;
     height: 170px;
-    width: 100%;
-    background-color: #fff;
+    width: 100%; 
     padding-top: 20px;
     background-image: url(math.png);
     background-size: contain;
 }
+
 h1{
     margin-bottom: 20px;
     font-family: Papyrus;
@@ -32,9 +31,10 @@ h1{
 #decrease, #increase, #reset{
     width: 100px;
     height: 34px;
-    border-radius: 10%;
+    border-radius: 7px;
     justify-content: space-between;
     font-family: Papyrus;
+    border: 1px solid;
 
 
 }
